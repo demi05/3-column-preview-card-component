@@ -8,8 +8,6 @@
 body{
     background-color: hsl(0, 0%, 95%);
     font-size: 0.9rem;
-    font-family: "Lexend Deca", sans-serif;
-    font-weight: 400;
 }
 .container{
     background-color: #f4f4f4;
@@ -26,6 +24,7 @@ body{
    display: flex;
    justify-content: center;
    max-width: 25%;
+   height: 100%;
    border: none;
    border-top-left-radius: 15px;
    border-bottom-left-radius: 15px;
@@ -36,6 +35,7 @@ body{
     display: flex;
    justify-content: center;
    max-width: 25%;
+   height: 100%;
    flex-grow: 1;
 }
 .luxury{
@@ -43,6 +43,7 @@ body{
     display: flex;
    justify-content: center;
    max-width: 25%;
+   height: 100%;
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
    flex-grow: 1;
@@ -58,6 +59,10 @@ h1{
     font-family: unset;
     font-family: "Big Shoulders Display", sans-serif; 
     font-weight: 700;
+}
+p, button{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
 }
 p{
     color: hsla(0, 0%, 100%, 0.75);
@@ -99,9 +104,9 @@ button{
     color: white;
 }
 .text-class{
-    padding-left: 1em;
-    width: 80%;
-    margin: auto;
+    padding-left: 2em;
+    /*width: 100%;
+    margin: auto;*/
 }
 .attribution { 
     font-size: 11px; 
@@ -113,8 +118,7 @@ button{
         color: hsl(228, 45%, 44%); 
     }
 
-
-    @media  (max-width: 600px) {
+ @media  (max-width: 600px) {
         .container {
             display: flex;
             flex-direction: column;
@@ -146,14 +150,13 @@ button{
    border-bottom-left-radius: 15px;
         }
         .text-class{
-            width: 90%;
+            width: 70%;
         }
     }
 
 
    
-
-     @media screen and (min-width: 601px) and (max-width: 1024px){
+@media screen and (min-width: 601px) and (max-width: 1024px){
         .container{
             display: flex;
             max-width: 100%;
@@ -170,5 +173,10 @@ button{
         .luxury{
             max-width: 30%;
             height: 90%;
+        }
+        .text-class{
+            padding-left: 1em;
+            width: 90%;
+            margin: auto;
         }
      }
