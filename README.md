@@ -63,8 +63,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/demi05/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://demi05.github.io/3-column-preview-card-component)
+- Solution URL: [Solution](https://github.com/demi05/3-column-preview-card-component)
+- Live Site URL: [Github Live Site](https://demi05.github.io/3-column-preview-card-component)
 
 
 ### Built with
